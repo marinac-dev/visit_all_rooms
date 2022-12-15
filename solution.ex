@@ -13,7 +13,7 @@ defmodule Solution do
     keys = elem(rooms, 0)
     # Keep track keys found and rooms visited | O(1)
     lengths = [rooms_length, 1]
-    # Depth first search | O(n)
+    # Depth first search alike solution | O(m)
     visit_rooms(keys, rooms, visited, lengths)
   end
 
